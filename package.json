@@ -2,7 +2,7 @@
   "name": "react-chat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dogecodes.github.io/react-chat",
+  "homepage": "http://snapsheep.github.io/react-chat",
   "dependencies": {
     "classnames": "^2.2.5",
     "history": "^4.7.2",
@@ -49,9 +49,5 @@
     "lint-staged": "^7.0.0",
     "prettier-eslint-cli": "^4.7.1",
     "react-test-renderer": "^16.2.0"
-  },
-  "lint-staged": {
-    "**/*.js": ["npm run lint:fix", "npm run format", "git add"],
-    "**/*.json": ["npm run format", "git add"]
   }
 }
